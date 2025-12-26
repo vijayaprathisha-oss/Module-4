@@ -30,11 +30,11 @@ To write a Python program that sorts a dictionary's:
 ---
 
 ## 🧪Program
-d={1:2,5:12,6:18,4:24,2:56,3:323}
+```d={1:2,5:12,6:18,4:24,2:56,3:323}
 result=sorted(d.items(),key=lambda x:x[1])
 print("Keys and Values sorted in alphabetical order by the value")
 print(result)
-
+```
 ## Sample Output
 <img width="1040" height="782" alt="image" src="https://github.com/user-attachments/assets/d7839584-3864-4959-9b0a-139e1294aa4a" />
 
